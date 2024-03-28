@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400;1,800&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  
+  <title>Frontend Mentor | Age calculator app</title>
+</head>
+<body>
+  <div class="background-card">
+    <div class="card">
+        <section class="all-form">
+          <div class="date-part">
+            <form class="form-date" id="form-date">
+              <div class="day">
+                  <label for="day">Day</label> 
+                  <input type="text" id="day" placeholder="DD">
+                  <div class="error-empty"></div>
+                  <div class="error-invalid">Must be a valid day</div>
+                  <div class="error-whole"></div>
+              </div>
+              <div class="month">
+                  <label for="month">Month</label> 
+                  <input type="text" id="month" placeholder="MM">
+                  <div class="error-empty"></div>
+                  <div class="error-invalid"></div>
+              </div>
+              <div class="year">
+                  <label for="year">Year</label> 
+                  <input type="text" id="year" placeholder="YYYY">
+                  <div class="error-empty"></div>
+                  <div class="error-invalid"></div>
+              </div>
+            </form>
+          </div>
+        
+          <div class="line-btn">
+            <hr> <button type="submit"><img src="assets/images/icon-arrow.svg"></button>
+          </div>
+        </section>
+        <section class="date-answer" id="dateAnswer">
+          <div class="answer">
+            <span id="resultY">--</span> years
+          </div>
+          <div class="answer">
+            <span id="resultM">--</span> months
+          </div>
+          <div class="answer">
+            <span id="resultD">--</span> days
+          </div>
+        </section>
+      </div>
+  
+    </div>
+    </div>
+</div>
+  
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+<script src="index.js"></script>
+</body>
+</html>
